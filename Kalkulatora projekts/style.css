@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0
+}
+
+html{
+    background-color: #B2AC88
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.inputfield {
+    width: 400px;
+    height: 100px;
+    font-size: 40px;
+    border: 3px solid darkgreen;
+    border-radius: 8px;
+    outline: none;
+}
+
+.img {
+    width: 450px;
+}
+
+.acb{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.acb:hover{
+    background-color: darkolivegreen;
+    transition: 0.3s;
+}
+
+.acb_c{
+    display:flex;
+}
+
+.r_C{
+    display: flex;
+    align-items: center;
+}
+
+.r_t{
+    font-size: 40px;
+    width: 170px;
+}
